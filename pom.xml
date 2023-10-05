@@ -4,6 +4,12 @@
   <artifactId>PetStoreAPIAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>  
   
+  <properties>
+    <java.version>11</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+</properties>
+  
  <build>
     <pluginManagement> 
         <plugins> 
