@@ -26,6 +26,8 @@ public class DDTests {
 		userPayload.setPhone(phoneNumber);
 		
 		Response response=UserEndPoints.createUser(userPayload);
+		
+		System.out.println("This is our Payload : "+userPayload);
 	 
 		AssertJUnit.assertEquals(response.getStatusCode(), 200);
 	}
